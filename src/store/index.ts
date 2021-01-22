@@ -1,7 +1,6 @@
 import { createStore } from "vuex";
 import Movie from '@/models/Movie';
 
-
 const store = createStore({
   state: {
     myfavs: []
